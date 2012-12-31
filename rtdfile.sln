@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtdfile", "rtdfile.vcproj", "{526C4817-E27E-4DD4-BC02-DFFE326ED9EF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "setup", "setup\setup.vdproj", "{23D6345F-653D-4666-85C9-DAD0B6445273}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{526C4817-E27E-4DD4-BC02-DFFE326ED9EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{526C4817-E27E-4DD4-BC02-DFFE326ED9EF}.Debug|Win32.Build.0 = Debug|Win32
+		{526C4817-E27E-4DD4-BC02-DFFE326ED9EF}.Release|Win32.ActiveCfg = Release|Win32
+		{526C4817-E27E-4DD4-BC02-DFFE326ED9EF}.Release|Win32.Build.0 = Release|Win32
+		{23D6345F-653D-4666-85C9-DAD0B6445273}.Debug|Win32.ActiveCfg = Debug
+		{23D6345F-653D-4666-85C9-DAD0B6445273}.Debug|Win32.Build.0 = Debug
+		{23D6345F-653D-4666-85C9-DAD0B6445273}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

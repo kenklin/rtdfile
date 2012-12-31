@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>RTDFile</title>
+</head>
+<body>
+<h1>RTDFile</h1>
+The RTDFile add-in lets you automatically retrieve real-time data as it changes, from
+<a href="http://office.microsoft.com/en-us/excel/HP100141031033.aspx#TextFormats">tab-delimited text</a>
+files into Microsoft Excel 2002.  A cell within the tab-delimited text file is retrieved via the
+<a href="http://office.microsoft.com/en-us/excel/HP030662371033.aspx">RealTimeData</a> (RTD) function,
+supplying the RTDFile add-in, the name of the tab-delimited text file, and a cell reference.
+
+
+
+<h3>Setup</h3>
+To install the RTDFile add-in, make sure Excel is closed, then run the following command.
+<p>
+<code>regsvr32.exe c:\RTDFile\Debug\rtdfile.dll</code><br />
+</p>
+
+
+
+<h3>Syntax</h3>
+<p>
+<code><b>=RTD</b>(<b>"rtdfile"</b>,,"<b><var>meta</var></b>")</code><br />
+</p>
+<p>
+<code><b>=RTD</b>(<b>"rtdfile"</b>,,"<b><var>filename</var></b>","<b><var>cellref</var></b>")</code><br />
+</p>
+<p>
+<table>
+<tr>
+    <td valign="top"><code><b>"rtdfile"</b></code></td>
+    <td>The quoted program name of the RTDFile add-in.  Specify it exactly as shown.</td>
+</tr>
+<tr>
+    <td valign="top"><code>"<b><var>meta</var></b>"</code></td>
+    <td>One of the following RTDFile keywords (must be quoted):
+        <table>
+        <tr>
+            <td><code><b>"=version"</b></code></td>
+            <td>Returns the RTDFile version</td>
+        </tr>
+        <tr>
+            <td><code><b>"=web"</b></code></td>
+            <td>Web address for RTDFile website.</td>
+        </tr>
+        <tr>
+            <td><code><b>"=help"</b></code></td>
+            <td>Web address for RTDFile help documentation.</td>
+        </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td valign="top"><code>"<b><var>filename</var></b>"</code></td>
+    <td>The quoted name of the <a href="http://office.microsoft.com/en-us/excel/HP100141031033.aspx#TextFormats">tab-delimited text</a> file.</td>
+</tr>
+<tr>
+    <td valign="top"><code>"<b><var>cellref</var></b>"</code></td>
+    <td>The quoted cell reference in <code><var>filename</var></code>.</td>
+</tr>
+</table>
+</p>
+
+<p>
+For additional information, see <a href="http://support.microsoft.com/kb/289150">How to set up and use the RTD function</a>
+</p>
+
+
+
+<h3>Examples</h3>
+Consider the demo file stored in \RTDFile\demo\days_in_month.txt, containing the following tab-delimited lines.
+<p>
+<pre>
+January   JAN       31
+February  FEB       28
+March     MAR       31
+April     APR       30
+May       MAY       31
+June      JUN       30
+July      JUL       31
+August    AUG       31
+September SEP       30
+October   OCT       31
+November  NOV       30
+December  DEC       31
+</pre>
+</p>
+
+</body>
+</html>
