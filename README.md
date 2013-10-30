@@ -59,3 +59,20 @@ uses its charting feature to graph the data.
     D5: =ROW()-3</td>
 ````
 ![Screenshot](https://raw.github.com/kenklin/rtdfile/master/demo/oldfaithful.png)
+
+Backstory
+---------
+In 2010-2012 [Grand-Am](http://grand-am.com) race seasons, I worked weekends with 
+[Phoenix Performance](http://phoenixperformance-news.com/) for the Subaru Road Racing Team.
+I wrote custom software that normalized the live track information transmitted to teams.
+A program parsed the [putty.log](http://putty.org) stream attached to our TransNET RS232 receiver and produced
+CSV files that [RTDFile](https://github.com/kenklin/rtdfile) used to populated our Excel spreadsheet.
+A series of web-based dashboards written by 
+[Michael](https://github.com/michaelelin) and 
+[David](https://github.com/crazycow013)
+then used this data to derive lap, time, and fuel information
+to help with race strategy.  These were fun, but very tense weekends!
+
+Unfortunately, at the beginning of 2013, the factory [terminated funding](http://subiesport.tv/site/2013/02/subaru-terminating-road-racing-team/).
+[Phoenix Performance](http://phoenixperformance-news.com/) continues to build, race, and sell championship winning cars.
+I continue to tinker at the intersection of software and motorsports.
